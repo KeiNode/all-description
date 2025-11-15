@@ -1,146 +1,250 @@
-🖥️ A. Desktop Environment (DE) – lengkap
+# 🖥️ Desktop & Window Environment Overview
 
-Ini cocok untuk pemakaian sehari-hari, sudah ada panel dan aplikasi bawaan.
+This document explains various **Desktop Environments (DE)** and **Window Managers (WM)** in Linux. It is designed to be **clean, structured, and interactive to read**. A full **English version** is provided, followed by a clear **Indonesian translation**.
 
-1. GNOME
+---
 
-Tampilan modern, elegan
+# 🇬🇧 **A. Desktop Environments (DE) – Complete GUI Experience**
 
-Cocok untuk laptop baru
+Desktop Environments include panels, menus, and built-in apps. Suitable for daily use.
 
-RAM agak besar (800MB–1.2GB)
+## 1. **GNOME**
 
-Sederhana, minimal, fokus ke workflow
+* Modern, elegant UI
+* Great for new laptops
+* Higher RAM usage (800MB–1.2GB)
+* Simple and focused workflow
 
-2. KDE Plasma
+## 2. **KDE Plasma**
 
-DE paling lengkap dan sangat customizable
+* Most customizable DE
+* Lightweight despite its appearance (600–900MB)
+* Great for gaming, editing, desktops
 
-Ringan walau tampak mewah (600–900MB)
+## 3. **XFCE**
 
-Cocok gaming, editing, user desktop
+* Lightweight, stable, classic
+* Very low RAM usage (300–500MB)
+* Perfect for old laptops or efficient setups
 
-3. XFCE (yang kamu pilih)
+## 4. **LXQt**
 
-Ringan, stabil, klasik
+* Lighter than XFCE
+* Modern interface
+* Ideal for extreme low-end PCs
 
-RAM sangat kecil (300–500MB)
+## 5. **Cinnamon**
 
-Cocok laptop lama atau pengguna yang ingin efisiensi
+* Windows-like experience
+* Beginner-friendly
+* Medium RAM usage (600–700MB)
 
-4. LXQt
+## 6. **MATE**
 
-Lebih ringan dari XFCE
+* Lightweight, GNOME 2 style
+* Stable, good for mid/low-end PCs
 
-Tampilan modern
+## 7. **Deepin**
 
-Cocok PC low-end skala ekstrem
+* Very beautiful UI
+* Heavy (1GB+)
+* Best for luxury-style desktop lovers
 
-5. Cinnamon
+## 8. **Budgie**
 
-Mirip Windows
+* Modern, neat, clean interface
+* Medium-light RAM usage (600–700MB)
 
-Nyaman untuk pemula
+## 9. **Cutefish**
 
-Lebih berat dari XFCE (600–700MB)
+* macOS-like, minimal
+* Not stable (still new)
 
-6. Mate
+---
 
-Ringan, mirip GNOME 2
+# 🇬🇧 **B. Tiling & Dynamic Window Managers (WM)**
 
-Stabil, cocok untuk PC menengah/low
+Minimal, ultra-light environments. Requires manual configuration.
+Perfect for power users.
 
-7. Deepin
+## 1. **i3-wm**
 
-Sangat cantik
+* Most popular tiling WM
+* Extremely light (<200MB)
+* Keyboard-driven workflow
 
-Paling berat (1GB+)
+## 2. **Sway**
 
-Cocok user yang ingin gaya mewah
+* Wayland version of i3
+* Modern, safer, faster
 
-8. Budgie
+## 3. **bspwm**
 
-Modern dan rapi
+* Windows arranged in a binary tree
+* Requires additional tools (polybar, rofi)
 
-Ringan-menengah (600–700MB)
+## 4. **Qtile**
 
-9. Cutefish
+* Written in Python
+* Highly flexible
 
-Desain ala macOS, sangat minimal
+## 5. **Xmonad**
 
-Masih baru / tidak stabil
+* Written in Haskell
+* Extremely stable
 
+## 6. **AwesomeWM**
 
-###############################################################################################################################################################################################################################################################
+* Scriptable with Lua
+* Lightweight and powerful
 
-🖥️ A. Desktop Environment (DE) – complete
+## 7. **River**
 
-This is suitable for everyday use, with built-in panels and applications.
+* Wayland WM
+* Very minimal, still new
 
-1. GNOME
+## 8. **Hyprland**
 
-Modern, elegant look
+* Tiling WM with animations
+* Very modern and trendy (2024–2025)
+* Beautiful yet light
 
-Suitable for new laptops
+## 9. **Niri**
 
-Slightly large RAM (800MB–1.2GB)
+* Wayland WM focused on user friendliness
 
-Simple, minimal, workflow-focused
+## 10. **Labwc**
 
-2. KDE Plasma
+* Wayland fork of Openbox
+* Very light
 
-Most comprehensive and highly customizable DE
+---
 
-Lightweight yet luxurious-looking (600–900MB)
+# 🇬🇧 **C. Stacking / Floating Window Managers**
 
-Suitable for gaming, editing, and desktop users
+These are not full DEs but provide a classic desktop feel.
 
-3. XFCE (your choice)
+## 1. **Enlightenment**
 
-Lightweight, stable, classic
+* Unique, fast, futuristic
+* DE + WM hybrid but lightweight
 
-Very low RAM (300–500MB)
+---
 
-Suitable for older laptops or users seeking efficiency
+# 📌 **Quick Summary Table**
 
-4. LXQt
+| Name           | Type | Weight      | Best For               |
+| -------------- | ---- | ----------- | ---------------------- |
+| KDE Plasma     | DE   | Medium      | Desktop, gaming        |
+| GNOME          | DE   | Heavy       | Modern workflow        |
+| XFCE           | DE   | Light       | Old laptops, stability |
+| LXQt           | DE   | Very light  | Low-end PCs            |
+| Cinnamon       | DE   | Medium      | Beginners              |
+| Deepin         | DE   | Heavy       | Aesthetic users        |
+| i3 / Sway      | WM   | Ultra-light | Power users            |
+| Hyprland       | WM   | Light       | Tiling + animations    |
+| Xmonad / bspwm | WM   | Ultra-light | Advanced users         |
 
-Lighter than XFCE
+---
 
-Modern look
+# 🇮🇩 **TERJEMAHAN INDONESIA**
 
-Suitable for low-end PCs on an extreme scale
+Dokumen ini menjelaskan berbagai **Desktop Environment (DE)** dan **Window Manager (WM)** di Linux dengan bahasa yang rapi dan mudah dipahami.
 
-5. Cinnamon
+---
 
-Similar to Windows
+# 🖥️ A. Lingkungan Desktop (DE) – Tampilan Lengkap
 
-Comfortable for beginners
+Cocok untuk penggunaan sehari-hari, sudah ada panel dan aplikasi bawaan.
 
-Heavier than XFCE (600–700MB)
+### 1. GNOME
 
-6. Mate
+* Modern dan elegan
+* Cocok untuk laptop baru
+* RAM agak besar (800MB–1.2GB)
+* Minimal dan fokus workflow
 
-Lightweight, similar to GNOME 2
+### 2. KDE Plasma
 
-Stable, suitable for PCs Mid-range/Low-Range
+* DE paling lengkap dan customizable
+* Ringan walau mewah (600–900MB)
+* Cocok gaming dan desktop
 
-7. Deepin
+### 3. XFCE
 
-Very beautiful
+* Ringan, stabil, klasik
+* RAM kecil (300–500MB)
 
-Heaviest (1GB+)
+### 4. LXQt
 
-Suitable for users who want a luxurious style
+* Lebih ringan dari XFCE
+* Tampilan modern
 
-8. Budgie
+### 5. Cinnamon
 
-Modern and sleek
+* Mirip Windows
+* Nyaman untuk pemula
 
-Light-medium (600–700MB)
+### 6. MATE
 
-9. Cutefish
+* Ringan dan stabil
 
-MacOS-style design, very minimal
+### 7. Deepin
 
-Still new/unstable
+* Sangat cantik
+* Berat (1GB+)
+
+### 8. Budgie
+
+* Modern dan rapi
+
+### 9. Cutefish
+
+* Desain ala macOS
+* Masih belum stabil
+
+---
+
+# 🪟 B. Window Manager Tiling – Minimal & Ringan
+
+Untuk power user, butuh konfigurasi manual.
+
+### i3-wm
+
+* Paling populer
+* Super ringan (<200MB)
+
+### Sway
+
+* Versi Wayland dari i3
+
+### bspwm
+
+* Atur window seperti pohon biner
+
+### Qtile
+
+* Ditulis dengan Python
+
+### Xmonad
+
+* Ditulis Haskell
+
+### AwesomeWM
+
+* Sangat configurable
+
+### Hyprland
+
+* Modern, ada animasi, populer 2024-2025
+
+---
+
+# 📌 Ringkasan Singkat
+
+Tabel ringkas disediakan di bagian atas agar mudah memilih.
+
+---
+
+**Happy exploring different Linux environments! 🚀**
+
